@@ -1,4 +1,6 @@
-package com.example.usercrud.user;
+package com.example.usercrud.user.dto;
+
+import com.example.usercrud.user.User;
 
 public class UserMapper {
     public static UserResponse toResponse(User u) {
